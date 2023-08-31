@@ -1,0 +1,180 @@
+/* style.css */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  header nav {
+    margin-top: 30px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+/* About section */
+#about {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Featured vehicles section */
+#featured {
+  background-color: #fff;
+  padding: 20px;
+  text-decoration: none;
+}
+
+#featured a{
+    text-decoration: underline;
+    color: black;
+}
+
+#featured ul {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+
+#featured li {
+    width: 20%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+
+#featured img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Vehicles for sale section */
+#vehicles {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-decoration: none;
+}
+
+#vehicles a{
+    text-decoration: underline;
+    color: black;
+}
+
+#vehicles ul {
+  list-style: none;
+  display: flex;
+}
+
+#vehicles li {
+    width: 20%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+
+#vehicles img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Contact Us section */
+#contact {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+#contact p {
+  margin-bottom: 10px;
+}
+
+#contact form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+#contact label {
+  color: #fff;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+#contact button {
+  background-color: #fff;
+  color: #333;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    footer h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+    
+    footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    footer li {
+    display: inline-block;
+    margin-right: 10px;
+    }
+    
+    footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    }
+    
+    footer a:hover {
+    text-decoration: underline;
+    }
